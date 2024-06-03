@@ -1,18 +1,15 @@
 {
-    "name": "admin/classoop",
+    "name": "admin/xuongoop",
     "autoload": {
         "psr-4": {
-            "Admin\\Classoop\\": "src/"
-        }
+            "Admin\\Xuongoop\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
     },
-    "authors": [
-        {
-            "name": "LeDucAnh119",
-            "email": "anhldph45102@fpt.edu.vn"
-        }
-    ],
     "require": {
-        "bramus/router": "^1.6",
+        "bramus/router": "~1.6",
         "eftec/bladeone": "^4.13",
         "doctrine/dbal": "^4.0",
         "rakit/validation": "^1.4",
